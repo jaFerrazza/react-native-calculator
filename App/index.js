@@ -39,6 +39,7 @@ export default class App extends React.Component {
             <Button
               text="C"
               theme="secondary"
+              testID="deleteBtn"
               onPress={() => this.handleTap("clear")}
             />
             <Button
@@ -87,6 +88,7 @@ export default class App extends React.Component {
             <Button
               text="+"
               theme="accent"
+              testID="addBtn"
               onPress={() => this.handleTap("operator", "+")}
             />
           </Row>
@@ -101,6 +103,7 @@ export default class App extends React.Component {
             <Button
               text="="
               theme="accent"
+              testID="equalBtn"
               onPress={() => this.handleTap("equal")}
             />
           </Row>

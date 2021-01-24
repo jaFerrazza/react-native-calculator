@@ -14,8 +14,10 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^8.2.3",
+    "detox": "^18.2.2",
     "eslint": "^7.4.0",
-    "eslint-config-handlebarlabs": "^0.0.6"
+    "eslint-config-handlebarlabs": "^0.0.6",
+    "mocha": "^8.2.1"
   },
   "private": true
 }

@@ -1,0 +1,14 @@
+{
+  "testRunner": "mocha",
+  "runnerConfig": "e2e/.mocharc.json",
+  "configurations": {
+    "ios": {
+      "type": "ios.simulator",
+      "binaryPath": "https://drive.google.com/drive/folders/1QxnEFSlyWRI4c4cVXv34sPyJufWo5O_h?usp=sharing",
+      "build": "expo build:ios -t simulator",
+      "device": {
+        "type": "iPhone 12 Pro Max"
+      }
+    }
+  }
+}
